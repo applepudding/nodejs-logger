@@ -11,7 +11,7 @@
         "restart_on_fail": false,
         "websocket":{
             "enable": false,
-            "server": "http://localhost:11000",
+            "server": "http://localhost:11000"
         },
         "dbserver":{
             "enable": false,

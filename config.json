@@ -1,0 +1,33 @@
+{
+    "main": {
+        "isp": {
+            "name": "rogers",
+            "username": "ssssssssssssssssssssssss",
+            "password": "ssssssssssssssssssss"
+        },
+        "device _holdDataDelay_s": 10,
+        "idle_ms": 5000,
+        "reconnection_delay_ms": 10000,
+        "restart_on_fail": false,
+        "websocket":{
+            "enable": false,
+            "server": "http://localhost:11000",
+        },
+        "dbserver":{
+            "enable": false,
+            "server": "http://chillerenergysaving.com/api/nodeplc.php"
+        },
+        "alerts_email":{
+            "enable": false,
+            "server": "http://chillerenergysaving.com/eku/api/",
+            "config_delay_ms": 900000
+        }
+    },
+    "client_list": [
+        {
+            "alias": "ca.slh.delmevm2.xvj",
+            "simid": "5830458801",
+            "type": "xvj"
+        }
+    ]
+}

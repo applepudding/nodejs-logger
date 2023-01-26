@@ -15,18 +15,18 @@
         },
         "dbserver":{
             "enable": false,
-            "server": "http://chillerenergysaving.com/api/nodeplc.php"
+            "server": "http://ssssssssssssssssssssss"
         },
         "alerts_email":{
             "enable": false,
-            "server": "http://chillerenergysaving.com/eku/api/",
+            "server": "http://ssssssssssssssssssssssssss",
             "config_delay_ms": 900000
         }
     },
     "client_list": [
         {
             "alias": "ca.slh.delmevm2.xvj",
-            "simid": "5830458801",
+            "simid": "ssssssssssssssssssssss",
             "type": "xvj"
         }
     ]
